@@ -48,7 +48,7 @@
     <Compile Include="OneArg\cos.cs" />
     <Compile Include="OneArg\Ctg.cs" />
     <Compile Include="TwoArg\Deduction.cs" />
-    <Compile Include="Division.cs" />
+    <Compile Include="TwoArg\Division.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
