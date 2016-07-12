@@ -41,6 +41,7 @@
             this.tg = new System.Windows.Forms.Button();
             this.log = new System.Windows.Forms.Button();
             this.ln = new System.Windows.Forms.Button();
+            this.sqrt = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // textBox1
@@ -106,7 +107,7 @@
             // 
             // sin
             // 
-            this.sin.Location = new System.Drawing.Point(193, 80);
+            this.sin.Location = new System.Drawing.Point(106, 187);
             this.sin.Name = "sin";
             this.sin.Size = new System.Drawing.Size(46, 23);
             this.sin.TabIndex = 7;
@@ -116,7 +117,7 @@
             // 
             // cos
             // 
-            this.cos.Location = new System.Drawing.Point(193, 132);
+            this.cos.Location = new System.Drawing.Point(26, 187);
             this.cos.Name = "cos";
             this.cos.Size = new System.Drawing.Size(46, 23);
             this.cos.TabIndex = 8;
@@ -126,7 +127,7 @@
             // 
             // ctg
             // 
-            this.ctg.Location = new System.Drawing.Point(275, 80);
+            this.ctg.Location = new System.Drawing.Point(193, 80);
             this.ctg.Name = "ctg";
             this.ctg.Size = new System.Drawing.Size(48, 23);
             this.ctg.TabIndex = 9;
@@ -136,7 +137,7 @@
             // 
             // tg
             // 
-            this.tg.Location = new System.Drawing.Point(274, 134);
+            this.tg.Location = new System.Drawing.Point(193, 132);
             this.tg.Name = "tg";
             this.tg.Size = new System.Drawing.Size(49, 21);
             this.tg.TabIndex = 10;
@@ -146,7 +147,7 @@
             // 
             // log
             // 
-            this.log.Location = new System.Drawing.Point(356, 80);
+            this.log.Location = new System.Drawing.Point(301, 80);
             this.log.Name = "log";
             this.log.Size = new System.Drawing.Size(46, 23);
             this.log.TabIndex = 11;
@@ -156,7 +157,7 @@
             // 
             // ln
             // 
-            this.ln.Location = new System.Drawing.Point(356, 134);
+            this.ln.Location = new System.Drawing.Point(193, 187);
             this.ln.Name = "ln";
             this.ln.Size = new System.Drawing.Size(46, 23);
             this.ln.TabIndex = 12;
@@ -164,11 +165,22 @@
             this.ln.UseVisualStyleBackColor = true;
             this.ln.Click += new System.EventHandler(this.oneButtonClick);
             // 
+            // sqrt
+            // 
+            this.sqrt.Location = new System.Drawing.Point(301, 187);
+            this.sqrt.Name = "sqrt";
+            this.sqrt.Size = new System.Drawing.Size(46, 23);
+            this.sqrt.TabIndex = 13;
+            this.sqrt.Text = "sqrt";
+            this.sqrt.UseVisualStyleBackColor = true;
+            this.sqrt.Click += new System.EventHandler(this.oneButtonClick);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(515, 262);
+            this.Controls.Add(this.sqrt);
             this.Controls.Add(this.ln);
             this.Controls.Add(this.log);
             this.Controls.Add(this.tg);
@@ -204,6 +216,7 @@
         private System.Windows.Forms.Button tg;
         private System.Windows.Forms.Button log;
         private System.Windows.Forms.Button ln;
+        private System.Windows.Forms.Button sqrt;
     }
 }
 

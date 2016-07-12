@@ -20,6 +20,8 @@ namespace Calculator
                     return new Log();
                 case "ln":
                     return new Ln();
+                case "sqrt":
+                    return  new Sqrt();
                 default:
                     throw new Exception("Неизвестная операция");
             }
