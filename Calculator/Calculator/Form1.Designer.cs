@@ -35,6 +35,12 @@
             this.multiply = new System.Windows.Forms.Button();
             this.division = new System.Windows.Forms.Button();
             this.textBox3 = new System.Windows.Forms.TextBox();
+            this.sin = new System.Windows.Forms.Button();
+            this.cos = new System.Windows.Forms.Button();
+            this.ctg = new System.Windows.Forms.Button();
+            this.tg = new System.Windows.Forms.Button();
+            this.log = new System.Windows.Forms.Button();
+            this.ln = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // textBox1
@@ -98,11 +104,77 @@
             this.textBox3.Size = new System.Drawing.Size(57, 20);
             this.textBox3.TabIndex = 6;
             // 
+            // sin
+            // 
+            this.sin.Location = new System.Drawing.Point(193, 80);
+            this.sin.Name = "sin";
+            this.sin.Size = new System.Drawing.Size(46, 23);
+            this.sin.TabIndex = 7;
+            this.sin.Text = "sin";
+            this.sin.UseVisualStyleBackColor = true;
+            this.sin.Click += new System.EventHandler(this.oneButtonClick);
+            // 
+            // cos
+            // 
+            this.cos.Location = new System.Drawing.Point(193, 132);
+            this.cos.Name = "cos";
+            this.cos.Size = new System.Drawing.Size(46, 23);
+            this.cos.TabIndex = 8;
+            this.cos.Text = "cos";
+            this.cos.UseVisualStyleBackColor = true;
+            this.cos.Click += new System.EventHandler(this.oneButtonClick);
+            // 
+            // ctg
+            // 
+            this.ctg.Location = new System.Drawing.Point(275, 80);
+            this.ctg.Name = "ctg";
+            this.ctg.Size = new System.Drawing.Size(48, 23);
+            this.ctg.TabIndex = 9;
+            this.ctg.Text = "ctg";
+            this.ctg.UseVisualStyleBackColor = true;
+            this.ctg.Click += new System.EventHandler(this.oneButtonClick);
+            // 
+            // tg
+            // 
+            this.tg.Location = new System.Drawing.Point(274, 134);
+            this.tg.Name = "tg";
+            this.tg.Size = new System.Drawing.Size(49, 21);
+            this.tg.TabIndex = 10;
+            this.tg.Text = "tg";
+            this.tg.UseVisualStyleBackColor = true;
+            this.tg.Click += new System.EventHandler(this.oneButtonClick);
+            // 
+            // log
+            // 
+            this.log.Location = new System.Drawing.Point(356, 80);
+            this.log.Name = "log";
+            this.log.Size = new System.Drawing.Size(46, 23);
+            this.log.TabIndex = 11;
+            this.log.Text = "log";
+            this.log.UseVisualStyleBackColor = true;
+            this.log.Click += new System.EventHandler(this.oneButtonClick);
+            // 
+            // ln
+            // 
+            this.ln.Location = new System.Drawing.Point(356, 134);
+            this.ln.Name = "ln";
+            this.ln.Size = new System.Drawing.Size(46, 23);
+            this.ln.TabIndex = 12;
+            this.ln.Text = "ln";
+            this.ln.UseVisualStyleBackColor = true;
+            this.ln.Click += new System.EventHandler(this.oneButtonClick);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(515, 262);
+            this.Controls.Add(this.ln);
+            this.Controls.Add(this.log);
+            this.Controls.Add(this.tg);
+            this.Controls.Add(this.ctg);
+            this.Controls.Add(this.cos);
+            this.Controls.Add(this.sin);
             this.Controls.Add(this.textBox3);
             this.Controls.Add(this.division);
             this.Controls.Add(this.multiply);
@@ -126,6 +198,12 @@
         private System.Windows.Forms.Button multiply;
         private System.Windows.Forms.Button division;
         private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.Button sin;
+        private System.Windows.Forms.Button cos;
+        private System.Windows.Forms.Button ctg;
+        private System.Windows.Forms.Button tg;
+        private System.Windows.Forms.Button log;
+        private System.Windows.Forms.Button ln;
     }
 }
 
