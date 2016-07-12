@@ -6,12 +6,14 @@ namespace Calculator.Tests.TwoArg
      [TestFixture]
     public class GenerationTests
     {
-         [Test]
-         public void AdditionTest()
+         [TestCase(6, 2, 12)]
+         [TestCase(5, 2, 10)]
+         [TestCase(7, 2, 14)]
+         public void GenerationTest(double first, double second, double expected)
          {
              ITwoArgCalculator calculator = new Generation();
-             double result = calculator.Calculate(6, 2);
-             Assert.AreEqual(12, result);
+             double result = calculator.Calculate(first, second);
+             Assert.AreEqual(expected, result);
 
          }
     }

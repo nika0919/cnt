@@ -6,12 +6,14 @@ namespace Calculator.Tests.TwoArg
     public class DivisionTests
     {
 
-         [Test]
-         public void AdditionTest()
+         [TestCase(6, 2, 3)]
+         [TestCase(8, 4, 2)]
+    
+         public void DivisionTest(double first, double second, double expected)
          {
              ITwoArgCalculator calculator = new Division();
-             double result = calculator.Calculate(6, 2);
-             Assert.AreEqual(3, result);
+             double result = calculator.Calculate(first, second);
+             Assert.AreEqual(expected, result);
 
          }
     }

@@ -43,6 +43,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="OneArg\CosTests.cs" />
+    <Compile Include="OneArg\CtgTests.cs" />
+    <Compile Include="OneArg\LnTests.cs" />
+    <Compile Include="OneArg\LogTests.cs" />
+    <Compile Include="OneArg\SinTests.cs" />
+    <Compile Include="OneArg\SqrtTests.cs" />
+    <Compile Include="OneArg\TgTests.cs" />
     <Compile Include="TwoArg\DeductionTests.cs" />
     <Compile Include="TwoArg\DivisionTests.cs" />
     <Compile Include="TwoArg\GenerationTests.cs" />
@@ -58,9 +65,7 @@
       <Name>Calculator</Name>
     </ProjectReference>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="OneArg\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
