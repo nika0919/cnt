@@ -44,10 +44,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Addition.cs" />
-    <Compile Include="cos.cs" />
-    <Compile Include="Ctg.cs" />
-    <Compile Include="Deduction.cs" />
+    <Compile Include="TwoArg\Addition.cs" />
+    <Compile Include="OneArg\cos.cs" />
+    <Compile Include="OneArg\Ctg.cs" />
+    <Compile Include="TwoArg\Deduction.cs" />
     <Compile Include="Division.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
@@ -55,17 +55,17 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
-    <Compile Include="Generation.cs" />
+    <Compile Include="TwoArg\Generation.cs" />
     <Compile Include="IOneArgCalculator.cs" />
     <Compile Include="ITwoArgCalculator.cs" />
-    <Compile Include="Ln.cs" />
-    <Compile Include="Log.cs" />
+    <Compile Include="OneArg\Ln.cs" />
+    <Compile Include="OneArg\Log.cs" />
     <Compile Include="OneArgFactory.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="sin.cs" />
-    <Compile Include="Sqrt.cs" />
-    <Compile Include="Tg.cs" />
+    <Compile Include="OneArg\sin.cs" />
+    <Compile Include="OneArg\Sqrt.cs" />
+    <Compile Include="OneArg\Tg.cs" />
     <Compile Include="TwoArgFactory.cs" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
