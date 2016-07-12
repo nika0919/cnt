@@ -1,11 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace Calculator
@@ -17,7 +10,7 @@ namespace Calculator
             InitializeComponent();
         }
 
-        private void button_Click(object sender, EventArgs e)
+        private void buttonClick(object sender, EventArgs e)
         {
             double first = Convert.ToDouble(textBox1.Text);
             double second = Convert.ToDouble(textBox2.Text);
@@ -26,7 +19,7 @@ namespace Calculator
             textBox3.Text = result.ToString();
         }
 
-        private void oneButtonClick(object sender, EventArgs e)
+        private void OneButtonClick(object sender, EventArgs e)
         {
             double first = Convert.ToDouble(textBox1.Text);
             IOneArgCalculator calculator = OneArgFactory.CreateCalculator(((Button)sender).Name);

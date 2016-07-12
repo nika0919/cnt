@@ -1,8 +1,9 @@
 ﻿using System;
+using Calculator.OneArg;
 
 namespace Calculator
 {
-    public class OneArgFactory
+    public static class OneArgFactory
     {
         public static IOneArgCalculator CreateCalculator(string calculatorName)
         {

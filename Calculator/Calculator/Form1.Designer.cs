@@ -66,7 +66,7 @@
             this.add.TabIndex = 2;
             this.add.Text = "+\r\n";
             this.add.UseVisualStyleBackColor = true;
-            this.add.Click += new System.EventHandler(this.button_Click);
+            this.add.Click += new System.EventHandler(this.buttonClick);
             // 
             // minus
             // 
@@ -76,7 +76,7 @@
             this.minus.TabIndex = 3;
             this.minus.Text = "-";
             this.minus.UseVisualStyleBackColor = true;
-            this.minus.Click += new System.EventHandler(this.button_Click);
+            this.minus.Click += new System.EventHandler(this.buttonClick);
             // 
             // multiply
             // 
@@ -86,7 +86,7 @@
             this.multiply.TabIndex = 4;
             this.multiply.Text = "*\r\n";
             this.multiply.UseVisualStyleBackColor = true;
-            this.multiply.Click += new System.EventHandler(this.button_Click);
+            this.multiply.Click += new System.EventHandler(this.buttonClick);
             // 
             // division
             // 
@@ -96,7 +96,7 @@
             this.division.TabIndex = 5;
             this.division.Text = "/";
             this.division.UseVisualStyleBackColor = true;
-            this.division.Click += new System.EventHandler(this.button_Click);
+            this.division.Click += new System.EventHandler(this.buttonClick);
             // 
             // textBox3
             // 
@@ -113,7 +113,7 @@
             this.sin.TabIndex = 7;
             this.sin.Text = "sin";
             this.sin.UseVisualStyleBackColor = true;
-            this.sin.Click += new System.EventHandler(this.oneButtonClick);
+            this.sin.Click += new System.EventHandler(this.OneButtonClick);
             // 
             // cos
             // 
@@ -123,7 +123,7 @@
             this.cos.TabIndex = 8;
             this.cos.Text = "cos";
             this.cos.UseVisualStyleBackColor = true;
-            this.cos.Click += new System.EventHandler(this.oneButtonClick);
+            this.cos.Click += new System.EventHandler(this.OneButtonClick);
             // 
             // ctg
             // 
@@ -133,7 +133,7 @@
             this.ctg.TabIndex = 9;
             this.ctg.Text = "ctg";
             this.ctg.UseVisualStyleBackColor = true;
-            this.ctg.Click += new System.EventHandler(this.oneButtonClick);
+            this.ctg.Click += new System.EventHandler(this.OneButtonClick);
             // 
             // tg
             // 
@@ -143,7 +143,7 @@
             this.tg.TabIndex = 10;
             this.tg.Text = "tg";
             this.tg.UseVisualStyleBackColor = true;
-            this.tg.Click += new System.EventHandler(this.oneButtonClick);
+            this.tg.Click += new System.EventHandler(this.OneButtonClick);
             // 
             // log
             // 
@@ -153,7 +153,7 @@
             this.log.TabIndex = 11;
             this.log.Text = "log";
             this.log.UseVisualStyleBackColor = true;
-            this.log.Click += new System.EventHandler(this.oneButtonClick);
+            this.log.Click += new System.EventHandler(this.OneButtonClick);
             // 
             // ln
             // 
@@ -163,7 +163,7 @@
             this.ln.TabIndex = 12;
             this.ln.Text = "ln";
             this.ln.UseVisualStyleBackColor = true;
-            this.ln.Click += new System.EventHandler(this.oneButtonClick);
+            this.ln.Click += new System.EventHandler(this.OneButtonClick);
             // 
             // sqrt
             // 
@@ -173,7 +173,7 @@
             this.sqrt.TabIndex = 13;
             this.sqrt.Text = "sqrt";
             this.sqrt.UseVisualStyleBackColor = true;
-            this.sqrt.Click += new System.EventHandler(this.oneButtonClick);
+            this.sqrt.Click += new System.EventHandler(this.OneButtonClick);
             // 
             // Form1
             // 
