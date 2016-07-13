@@ -18,7 +18,7 @@ namespace Calculator.Tests.OneArg
 
         }
 
-        [Test]
+        [Test] 
         public void LnByNumTest()
         {
             IOneArgCalculator calculator = new Ln();

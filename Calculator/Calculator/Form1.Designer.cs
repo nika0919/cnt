@@ -42,6 +42,9 @@
             this.log = new System.Windows.Forms.Button();
             this.ln = new System.Windows.Forms.Button();
             this.sqrt = new System.Windows.Forms.Button();
+            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.quick = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // textBox1
@@ -53,7 +56,7 @@
             // 
             // textBox2
             // 
-            this.textBox2.Location = new System.Drawing.Point(180, 12);
+            this.textBox2.Location = new System.Drawing.Point(149, 12);
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(103, 20);
             this.textBox2.TabIndex = 1;
@@ -100,9 +103,9 @@
             // 
             // textBox3
             // 
-            this.textBox3.Location = new System.Drawing.Point(356, 12);
+            this.textBox3.Location = new System.Drawing.Point(290, 12);
             this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(57, 20);
+            this.textBox3.Size = new System.Drawing.Size(64, 20);
             this.textBox3.TabIndex = 6;
             // 
             // sin
@@ -175,11 +178,41 @@
             this.sqrt.UseVisualStyleBackColor = true;
             this.sqrt.Click += new System.EventHandler(this.OneButtonClick);
             // 
+            // textBox4
+            // 
+            this.textBox4.Location = new System.Drawing.Point(51, 230);
+            this.textBox4.Name = "textBox4";
+            this.textBox4.Size = new System.Drawing.Size(426, 20);
+            this.textBox4.TabIndex = 14;
+            // 
+            // quick
+            // 
+            this.quick.Location = new System.Drawing.Point(422, 80);
+            this.quick.Name = "quick";
+            this.quick.Size = new System.Drawing.Size(55, 23);
+            this.quick.TabIndex = 15;
+            this.quick.Text = "quick";
+            this.quick.UseVisualStyleBackColor = true;
+            this.quick.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // button2
+            // 
+            this.button2.Location = new System.Drawing.Point(422, 121);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(55, 23);
+            this.button2.TabIndex = 16;
+            this.button2.Text = "button2";
+            this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button1_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(515, 262);
+            this.Controls.Add(this.button2);
+            this.Controls.Add(this.quick);
+            this.Controls.Add(this.textBox4);
             this.Controls.Add(this.sqrt);
             this.Controls.Add(this.ln);
             this.Controls.Add(this.log);
@@ -217,6 +250,9 @@
         private System.Windows.Forms.Button log;
         private System.Windows.Forms.Button ln;
         private System.Windows.Forms.Button sqrt;
+        private System.Windows.Forms.TextBox textBox4;
+        private System.Windows.Forms.Button quick;
+        private System.Windows.Forms.Button button2;
     }
 }
 

@@ -43,6 +43,31 @@ namespace Calculator
             }
         }
 
+        private void button1_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                string[] stringArray = textBox4.Text.Split(' ');
+                double[] doubleArray = new double[stringArray.Length];
+                for (int i = 0; i < doubleArray.Length; i++)
+                {
+                    doubleArray[i] = Convert.ToDouble(stringArray[i]);
+                }
+                ISorting calculator = SortingFactory.CreateCalculator(((Button)sender).Name);
+                 
+                string stringResult="";
+                for (int i = 0; i < doubleArray.Length; i++)
+                {
+                    stringResult += " " + doubleArray[i];
+                }
 
+                textBox3.Text = stringResult;
+            }
+
+            catch (Exception exc)
+            {
+                MessageBox.Show("Произошла ошибка " + exc.Message);
+            }
+        }
     }
 }

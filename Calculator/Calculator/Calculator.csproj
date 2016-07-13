@@ -44,6 +44,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ISorting.cs" />
+    <Compile Include="Sorting.cs" />
+    <Compile Include="SortingFactory.cs" />
     <Compile Include="TwoArg\Addition.cs" />
     <Compile Include="OneArg\cos.cs" />
     <Compile Include="OneArg\Ctg.cs" />
