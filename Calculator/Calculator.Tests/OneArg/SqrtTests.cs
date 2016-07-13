@@ -1,4 +1,5 @@
-﻿using Calculator.OneArg;
+﻿using System;
+using Calculator.OneArg;
 using NUnit.Framework;
 
 namespace Calculator.Tests.OneArg
@@ -14,6 +15,15 @@ namespace Calculator.Tests.OneArg
             IOneArgCalculator calculator = new Sqrt();
             double result = calculator.Calculate(first);
             Assert.AreEqual(expected, result, 0.00001);
+
+        }
+
+        [Test]
+        public void SqrtByNumTest()
+        {
+            IOneArgCalculator calculator = new Sqrt();
+            Assert.Throws<Exception>(() => calculator.Calculate(-1));
+
 
         }
     }

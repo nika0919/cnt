@@ -1,4 +1,5 @@
-﻿using NUnit.Framework;
+﻿using System;
+using NUnit.Framework;
 
 namespace Calculator.Tests.TwoArg
 {
@@ -14,6 +15,15 @@ namespace Calculator.Tests.TwoArg
              ITwoArgCalculator calculator = new Division();
              double result = calculator.Calculate(first, second);
              Assert.AreEqual(expected, result);
+
+         }
+
+         [Test]
+         public void DivisionByZeroTest()
+         {
+             ITwoArgCalculator calculator = new Division();
+             Assert.Throws<Exception>(() =>calculator.Calculate(6, 0));
+
 
          }
     }

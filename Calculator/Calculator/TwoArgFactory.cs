@@ -5,6 +5,13 @@ namespace Calculator
 {
     public static class TwoArgFactory 
     {
+        /// <summary>
+        /// Here we can see, how the buttons interact with functions 
+        /// </summary>
+        /// <param name="calculatorName">
+        /// </param>
+        /// <returns>
+        /// </returns>
         public static ITwoArgCalculator CreateCalculator(string calculatorName)
         {
             switch (calculatorName)

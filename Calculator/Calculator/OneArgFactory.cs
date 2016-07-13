@@ -5,6 +5,13 @@ namespace Calculator
 {
     public static class OneArgFactory
     {
+        /// <summary>
+        /// Here we can see, how the buttons interact with functions 
+        /// </summary>
+        /// <param name="calculatorName">
+        /// </param>
+        /// <returns>
+        /// </returns>
         public static IOneArgCalculator CreateCalculator(string calculatorName)
         {
             switch (calculatorName)
