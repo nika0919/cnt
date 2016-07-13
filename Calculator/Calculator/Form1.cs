@@ -54,7 +54,7 @@ namespace Calculator
                     doubleArray[i] = Convert.ToDouble(stringArray[i]);
                 }
                 ISorting calculator = SortingFactory.CreateCalculator(((Button)sender).Name);
-                 
+                 calculator.Sort(doubleArray);
                 string stringResult="";
                 for (int i = 0; i < doubleArray.Length; i++)
                 {
